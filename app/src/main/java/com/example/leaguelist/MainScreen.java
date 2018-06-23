@@ -20,12 +20,12 @@ public class MainScreen extends AppCompatActivity {
         Objects.requireNonNull(getSupportActionBar()).setTitle(null);
     }
 
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        // Inflate the menu_leaguelist; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.menu_leaguelist, menu);
-//        return true;
-//    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu_leaguelist; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_leaguelist, menu);
+        return true;
+    }
 
     // Determines if Action bar item was selected. If true then do corresponding action.
     @Override
