@@ -9,7 +9,6 @@ import android.support.v7.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v7.widget.Toolbar;
-
 import java.util.Objects;
 
 public class MainScreen extends AppCompatActivity {
