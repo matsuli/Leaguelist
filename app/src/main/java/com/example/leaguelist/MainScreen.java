@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toolbar;
+import android.support.v7.widget.Toolbar;
 
 public class MainScreen extends AppCompatActivity {
 
@@ -17,12 +17,12 @@ public class MainScreen extends AppCompatActivity {
         setSupportActionBar(myToolbar);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu_leaguelist; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_leaguelist, menu);
-        return true;
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        // Inflate the menu_leaguelist; this adds items to the action bar if it is present.
+//        getMenuInflater().inflate(R.menu.menu_leaguelist, menu);
+//        return true;
+//    }
 
     // Determines if Action bar item was selected. If true then do corresponding action.
     @Override
